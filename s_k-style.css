@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+table{
+    text-align: start;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 20px;
+}
+
+table td, th{
+    border: 1px solid green;
+    padding: 10px;
+}
+
+thead{
+    background-color: rgba(64, 151, 64, 0.686);
+}
+
+r{
+    color: red;
+}
