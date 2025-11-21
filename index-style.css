@@ -1,0 +1,20 @@
+/* CSS-reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+:root {
+    --clr-primary-dark: hsl(203, 47%, 14%);
+    --clr-primary: hsl(212, 61%, 86%);
+    --clr-secondary: pink;
+   
+
+}
