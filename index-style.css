@@ -12,9 +12,8 @@ img {
 }
 
 :root {
-    --clr-primary-dark: hsl(203, 47%, 14%);
+    --clr-primary-dark: hsl(205, 14%, 64%);
     --clr-primary: hsl(212, 61%, 86%);
-    --clr-secondary: pink;
-   
+    --clr-secondary: pink;  
 
 }
