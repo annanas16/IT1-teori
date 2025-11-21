@@ -10,82 +10,96 @@
 <body>
 
     <section>
+        <h1 class="bilder-tittel">3.2 Bilder består av bildepunkter</h1>
         <div class="informasjon">
-            <h1>3.2 Bilder består av bildepunkter</h1>
-        <h2>Piksler/bildepunkter: </h2>
-        <ul>
-            <li>Piksler/bildepunkter er bitte små deler vi deler bildet inn i.</li>
-            <li>Disse bildenepunktene har ikke noen fast størrelse, men jo flere punkter du deler et bilde inn i, desto høyere blir oppløsningen, og dermed kvaliteten på bildet.</li>
-            <li>(krever også mer plass i minnet)</li>
-            <li>Datamaskinen kan digitalisere et bilde/illustrasjon, ved å dele det opp i små bildepunkter.</li>
-            <li>Dersom vi bare har sort og hvitt, kan vi bruke binære tall 0 og 1.</li>
-        </ul>
-        <h2>Lagring og minne</h2>
-        <ul>
-            <li>Grafikk = alle ulike visningsmåter av skrift og tegning</li>
-            <li>Et bilde av et smilefjes består av 8x8 bit, altså 64 bit til sammen</li>
-            <li>Minne: i selve maskinen eller på harddisk</li>
-            <li>Lagring: plassen på minnebrikke eller i CD-ROM</li>
-            <li>Punktmatrise: Et bilde med de forskjellige kombinasjonsmulighetene, på engelsk bitmap.
-                Det er et slags kart over piksler
-            </li>
-        </ul>
-        <h2>Farger - RGB</h2>
-        <ul>
-            <li>Bildepunktene trenger ofte farger.</li>
-            <li>Da trenger datamaskinen flere tall for å kunne beskrive hvert punkt.</li>
-            <li>De vanligste:</li>
-            <table style="border: 2px solid black;">
-                <th>
-                    <td>Bruk</td>
-                    <td>Fargene</td>
-                </th>
-                <tr>
-                    <td>RGB</td>
-                    <td>Grafikk på skjerm</td>
-                    <td>Rød, Grønn og Blå</td>
-                </tr>
-                <tr>
-                    <td>CMYK</td>
-                    <td>Trykk på papir</td>
-                    <td>Cyan, Magenta, Yellow og black</td>
-                </tr>
-            </table>
-            <li>Rgb er altså vanligst når det gjelder grafikk på skjerm. Om vi tar for oss rødt alene, har vi mange muligheter når vi skal gjengi rødt - alt fra mørkerødt at det ender i svart, til så knallrødt at det bare er helt rødt.</li>
-            <li>Lav oppløsning = fargen deles opp i få nivåer</li>
-            <li>Vanlig oppdeling er 256 nivåer for hver farge</li>
-            <li>I RGB er det 0 til 255 for rødt, grønt blått, hver farge/bildepunkt har 3 tall</li>
-            <li>Hvit har (255, 255, 255)</li>
-            <li>Svart har (0,0,0)</li>
-        </ul>
-        <h2>
-            Lagring og overføring av fargebilder
-        </h2>
-        <ul>
-            <li><b>Datahastighet</b> måles i bit per sekund</li>
-            <li>Du får høyere <b>datarate</b> ved å få flere bit per sekund</li>
-        </ul>
-        <h2>Kompresjon av bilder</h2>
-        <ul>
-            <li>
-                <p><b>Kompresjon:</b>gjør at datafilene tar mindre plass uten at de blir ødelagt, og uten at vesentlig infromasjon i f.eks et bilde går tapt</p> 
-            </li>
-            <li><b>Tapsfri kompresjon:</b> kan gjenskape en fil som er identisk med originalen. Illustrasjoner og figurer.
-                RLE er Run Length Coding.
-                Datamaskinen som sender filen legger ved info om hvilken kompresjon som er brukt, og maskinen som mottar filen må gjenskape originalen. 
-                Dette kalles koding og dekoding.
-            </li>
-            <li><b>Destruktiv kompresjon: </b>bilder. Forenkle bildepunkter, ha færre/mer repetisjon</li>
-        </ul>
+        <div class="box">
+            <h2>Piksler/bildepunkter: </h2>
+            <ul>
+                <li>Piksler/bildepunkter er bitte små deler vi deler bildet inn i.</li>
+                <li>Disse bildenepunktene har ikke noen fast størrelse, men jo flere punkter du deler et bilde inn i, desto høyere blir oppløsningen, og dermed kvaliteten på bildet.</li>
+                <li>(krever også mer plass i minnet)</li>
+                <li>Datamaskinen kan digitalisere et bilde/illustrasjon, ved å dele det opp i små bildepunkter.</li>
+                <li>Dersom vi bare har sort og hvitt, kan vi bruke binære tall 0 og 1.</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>Lagring og minne</h2>
+            <ul>
+                <li>Grafikk = alle ulike visningsmåter av skrift og tegning</li>
+                <li>Et bilde av et smilefjes består av 8x8 bit, altså 64 bit til sammen</li>
+                <li>Minne: i selve maskinen eller på harddisk</li>
+                <li>Lagring: plassen på minnebrikke eller i CD-ROM</li>
+                <li>Punktmatrise: Et bilde med de forskjellige kombinasjonsmulighetene, på engelsk bitmap.
+                    Det er et slags kart over piksler
+                </li>
+            </ul>
+        </div>
+        <div class="box">
+            <h2>Farger - RGB</h2>
+            <ul>
+                <li>Bildepunktene trenger ofte farger.</li>
+                <li>Da trenger datamaskinen flere tall for å kunne beskrive hvert punkt.</li>
+                <li>De vanligste:</li>
+                <table style="border: 2px solid black;">
+                    <th>
+                        <td>Bruk</td>
+                        <td>Fargene</td>
+                    </th>
+                    <tr>
+                        <td>RGB</td>
+                        <td>Grafikk på skjerm</td>
+                        <td>Rød, Grønn og Blå</td>
+                    </tr>
+                    <tr>
+                        <td>CMYK</td>
+                        <td>Trykk på papir</td>
+                        <td>Cyan, Magenta, Yellow og black</td>
+                    </tr>
+                </table>
+                <li>Rgb er altså vanligst når det gjelder grafikk på skjerm. Om vi tar for oss rødt alene, har vi mange muligheter når vi skal gjengi rødt - alt fra mørkerødt at det ender i svart, til så knallrødt at det bare er helt rødt.</li>
+                <li>Lav oppløsning = fargen deles opp i få nivåer</li>
+                <li>Vanlig oppdeling er 256 nivåer for hver farge</li>
+                <li>I RGB er det 0 til 255 for rødt, grønt blått, hver farge/bildepunkt har 3 tall</li>
+                <li>Hvit har (255, 255, 255)</li>
+                <li>Svart har (0,0,0)</li>
+            </ul>
+            
+        </div>
+        <div class="box">
+            <h2>
+                Lagring og overføring av fargebilder
+            </h2>
+            <ul>
+                <li><b>Datahastighet</b> måles i bit per sekund</li>
+                <li>Du får høyere <b>datarate</b> ved å få flere bit per sekund</li>
+            </ul>
+        </div>
 
-        <h2>Filstørrelse</h2>
-        <ul>
-            <li>Enheten for filstørrelse er byte (B)</li>
-            <li>Som regel oppgis i kB eller mB</li>
-            <li>De vanligste filformatene for bilder er JPG, PNG, GIF</li>
-            <li>Bruk JPG når du skal ha fotografier, og PNG til logoer og ikoner.</li>
-            <li>JPG er destruktiv, PNG er tapsfri</li>
-        </ul>
+        <div class="box">
+            <h2>Kompresjon av bilder</h2>
+            <ul>
+                <li>
+                    <p><b>Kompresjon:</b>gjør at datafilene tar mindre plass uten at de blir ødelagt, og uten at vesentlig infromasjon i f.eks et bilde går tapt</p>
+                </li>
+                <li><b>Tapsfri kompresjon:</b> kan gjenskape en fil som er identisk med originalen. Illustrasjoner og figurer.
+                    RLE er Run Length Coding.
+                    Datamaskinen som sender filen legger ved info om hvilken kompresjon som er brukt, og maskinen som mottar filen må gjenskape originalen.
+                    Dette kalles koding og dekoding.
+                </li>
+                <li><b>Destruktiv kompresjon: </b>bilder. Forenkle bildepunkter, ha færre/mer repetisjon</li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <h2>Filstørrelse</h2>
+            <ul>
+                <li>Enheten for filstørrelse er byte (B)</li>
+                <li>Som regel oppgis i kB eller mB</li>
+                <li>De vanligste filformatene for bilder er JPG, PNG, GIF</li>
+                <li>Bruk JPG når du skal ha fotografier, og PNG til logoer og ikoner.</li>
+                <li>JPG er destruktiv, PNG er tapsfri</li>
+            </ul>
+        </div>
         </div>
         
     </section>

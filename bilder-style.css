@@ -3,12 +3,40 @@
 }
 
 section {
-    padding: 20px;
+    padding: 30px;
     background-color: var(--clr-primary-dark);
     color: var(--clr-primary);
     font-family: var(--font-family);
+    
 }
 
 .informasjon li {
     margin: 5px;
+}
+
+.informasjon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+    
+    
+}
+
+.bilder-tittel {
+    color: white;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.box {
+    margin: 15px;
+    line-height: 30px;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(29, 27, 81), rgb(6, 6, 43)) ;
+    box-shadow: 5px 5px 5px black;
 }
