@@ -1,7 +1,16 @@
+:root {
+    
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: ;
+    min-height: 100vh;
 }
 
 img{
@@ -31,3 +40,18 @@ thead{
 r{
     color: red;
 }
+
+h1{
+    color: ;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.kompetanse{
+    text-align: center;
+    margin: 30px auto;
+
+    max-width: 800px;
+    border-radius: 10px;
+}
+
