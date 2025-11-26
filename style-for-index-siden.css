@@ -1,0 +1,32 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.grid-container >* {
+    padding: 70px;
+    border: 10px solid lavender;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+i {
+    font-size: 100px;
+    margin: 30px;
+    
+}
+
+.grid-container >*:hover {
+    box-shadow: 5px 5px 10px rgb(82, 78, 82);
+}
+
+.binaere-tall i {
+    color: cornflowerblue;
+}
+
